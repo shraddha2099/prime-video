@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    height: 100vh;
+    background-color: bisque;
+}
+.box{
+    
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.box img{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 320px;
+    top: 20px;
+
+}
+.box{
+    background-color: black;
+}
+.box h3{
+    color: white;
+    width: 50%;
+    position: relative;
+    bottom: 440px;
+    font-size: 35px;
+    padding-left: 20px;
+}
+.box p{
+    color: white;
+    position: relative;
+    bottom: 420px;
+    width: 50%;
+    font-size: 18px;
+    left: 20px;
+}
+
+
+
+
+#primary-nav{
+    
+    height: 70px;
+    background-color:#01050D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#secondary-nav{
+    display: none;
+    
+}
+.box{
+    display: none;
+}
+#secondary-nav ul{
+    background-color: #01050D;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.leftside{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    list-style: none;
+    padding-left: 35px;
+    font-size: 20px;
+}
+.leftside li img{
+    color: white;
+}
+.rightside{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    padding-right: 20px;
+}
+#one{
+    background-color:#4F99FF;
+    height: 40px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+#three{
+    background-color:white;
+    height: 40px;
+    width: 180px;
+    color: black;
+    padding: 10px ;
+    left: 20px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 400px;
+}
+.prime{
+    padding-left: 20px;
+}
+.herosection{
+    height: 100vh;
+    color: white;
+    background-image: url('./shraddha.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 60px;
+}
+.herosection h1{
+    margin-bottom: 25px;
+    font-size: 50px;
+    
+}
+.herosection h2{
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+#two{
+    height: 55px;
+    width: 230px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* for mobile */
+@media(max-width:768px ){
+    #primary-nav{
+        display: none;
+    }
+    #secondary-nav{
+        display: block;
+      
+    }
+
+    .box{
+        display: block;
+    }
+    .herosection{
+        display:none;
+    }
+
+}
